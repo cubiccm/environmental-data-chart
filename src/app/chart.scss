@@ -1,0 +1,49 @@
+:root {
+  --md-elevated-card-container-color: #fff;
+}
+
+.chart {
+  &__card {
+    display: flex;
+    padding: 16px 24px;
+  }
+
+  &__title {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    grid-auto-rows: min-content;
+    column-gap: 16px;
+    row-gap: 16px;
+  }
+
+  &__options {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    > * {
+      margin-right: 60px;
+    }
+
+    > label {
+      color: rgba(0, 0, 0, .7);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      md-switch {
+        margin-left: 12px;
+      }
+    }
+
+    margin: 20px 0;
+  }
+}
+
+
