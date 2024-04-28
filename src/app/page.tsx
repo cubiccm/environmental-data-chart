@@ -60,7 +60,7 @@ export default function Home() {
         setHasFile(true);
       } catch {
         setHasFile(false);
-        setErrorMessage("Error to process file");
+        setErrorMessage("Failed to process selected file");
       }
     });
   }
