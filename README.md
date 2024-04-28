@@ -1,4 +1,4 @@
-## Getting Started
+# Environmental Data Visualization
 
 ```bash
 npm run dev

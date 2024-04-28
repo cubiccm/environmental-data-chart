@@ -115,7 +115,7 @@ export function ChartOptions({
         </md-select-option>
       </md-outlined-select>
       <label>
-        Y-Axis Begin at Zero
+        Y-Axis Begins at Zero
         <md-switch icons ref={begin_at_zero_switch}></md-switch>
       </label>
     </div>
